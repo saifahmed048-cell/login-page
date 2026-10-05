@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <section>
+        <div class="container">
+
+            <div class="left">
+                <img class="img" src="assests/peakpx.jpg" alt="side-pic">
+                <svg width="100" height="32" viewBox="0 0 140 40" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M2 32 L18 8 L34 32" stroke="white" stroke-width="4" stroke-linecap="round"
+                        stroke-linejoin="round" fill="none" />
+                    <path d="M44 32 V8 L54 22 L64 8 V32" stroke="white" stroke-width="4" stroke-linecap="round"
+                        stroke-linejoin="round" fill="none" />
+                    <path d="M76 8 V24 A10 10 0 0 0 96 24 V8" stroke="white" stroke-width="4" stroke-linecap="round"
+                        stroke-linejoin="round" fill="none" />
+                </svg>
+                <a class="website" href="#">Back to website</a>
+                <div class="for-subtitle">
+                <p>Capturing Moments,</p>
+                <p>Creating Memories</p>
+                </div>
+            </div>
+
+            <form class="right">
+                <h2>Create an account</h2>
+                <p>Already have an account?</p>
+                <a class="login" href="#">Log in</a>
+
+                <form class="right-content">
+                    <div class="login-setup">
+
+                        <div class="i1 item">
+                            <label for="first-name" class="sr-only">First name</label>
+                            <input id="first-name" name="user-name" type="text" placeholder="First name">
+                        </div>
+
+                        <div class="i2 item">
+                            <label for="last-name"></label>
+                            <input type="text" id="last-name" name="user-last-name" placeholder="Last name">
+                        </div>
+
+                        <div class="i3 item">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" placeholder="Email">
+                        </div>
+
+                        <div class="i4 item">
+                            <label for="password"></label>
+                            <input type="password" name="password" id="password" placeholder="Enter your password">
+                        </div>
+                    </div>
+
+
+                    <div class="check">
+                        <input type="checkbox" id="terms" name="terms-and-conditions">
+                        <label for="terms">I agree to the<a href="#">Terms & Conditions</a> </label>
+                    </div>
+
+                    <div class="create">
+                        <button type="submit">Create account</button>
+                        <span>Or register with</span>
+                    </div>
+
+                    <div class="main-button">
+                        <button type="button" class="btn">
+                            <img src="assests/icon/google-icon-logo-svgrepo-com.svg" alt="google-icon">
+                            <span>Google</span>
+                        </button>
+
+                        <button type="button" class="btn">
+                            <img src="assests/icon/apple-logo-svgrepo-com.svg" alt="apple-icon">
+                            <span>Apple</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
